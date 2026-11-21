@@ -1,25 +1,21 @@
-AFPEED DIGITAL - MISE A JOUR DE LA PAGE D ACCUEIL
-===============================================
-Ce ZIP contient une version autonome pour GitHub Pages.
+AFPEED DIGITAL - Mise a jour du 21 novembre 2026
 
-MODIFICATIONS
-- Introduction AFPEED en francais et en arabe.
-- Six objectifs institutionnels presentes.
-- Deux photos fournies integrees directement dans index.html.
-- Contact : 0556 13 56 01 / 0655 12 37 45 / Afpeedalgeria@gmail.com
-- Les autres rubriques publiques de la version statique sont conservees.
-- Pas de serveur, de comptes utilisateurs ni de base de donnees.
+MODIFICATIONS :
+- Traduction arabe de la fondation corrigee selon le texte fourni.
+- Direction de la wilaya d Alger : portrait fourni, nom et email afpeed.alger16@gmail.com.
+- Evenements et publications : 2 exemples identifies comme demonstrations ; formulaire de publication locale uniquement.
+- Liens accueil vers la direction d Alger et les publications.
+- Tous les contenus et la photo sont inclus dans index.html.
 
-MISE A JOUR SUR GITHUB
+PUBLICATION GITHUB PAGES :
 1. Ouvrir https://github.com/mohandiberraken452-hue/AFPEED
-2. Choisir Add file > Upload files.
-3. Envoyer index.html a la racine du depot, remplacer la version existante.
-4. Valider Commit changes.
-5. Attendre la publication puis ouvrir
-   https://mohandiberraken452-hue.github.io/AFPEED/#/home
-6. Si ancienne version : Ctrl+F5 ou fenetre privee.
+2. Verifier que vous etes dans la branche main et a la racine du depot.
+3. Remplacer le fichier index.html existant par celui de ce ZIP (NE PAS le mettre dans un sous-dossier).
+4. Si le site ne change pas, supprimer index.html depuis GitHub puis committer, ensuite uploader le nouveau index.html et committer.
+5. Conserver les autres fichiers. .nojekyll peut rester.
+6. Attendre que GitHub Actions indique le deploiement Pages reussi.
+7. Tester : https://mohandiberraken452-hue.github.io/AFPEED/#/direction
+   et https://mohandiberraken452-hue.github.io/AFPEED/#/event
+8. Forcer l actualisation Ctrl+F5 si necessaire.
 
-Vous n'avez PAS besoin d'envoyer les photos separement :
-elles sont incluses dans index.html.
-L'ancien app.js et styles.css peuvent rester dans le depot ;
-cette nouvelle page n'en depend pas.
+IMPORTANT : GitHub Pages est statique. Les publications ajoutees dans le formulaire restent uniquement dans le navigateur et ne sont pas visibles par les autres utilisateurs. Pour publier un vrai article a tous, modifier le contenu statique dans index.html puis committer sur GitHub. Pas de serveur ni de base de donnees.
