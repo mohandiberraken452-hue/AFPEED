@@ -1,0 +1,25 @@
+AFPEED DIGITAL - MISE A JOUR DE LA PAGE D ACCUEIL
+===============================================
+Ce ZIP contient une version autonome pour GitHub Pages.
+
+MODIFICATIONS
+- Introduction AFPEED en francais et en arabe.
+- Six objectifs institutionnels presentes.
+- Deux photos fournies integrees directement dans index.html.
+- Contact : 0556 13 56 01 / 0655 12 37 45 / Afpeedalgeria@gmail.com
+- Les autres rubriques publiques de la version statique sont conservees.
+- Pas de serveur, de comptes utilisateurs ni de base de donnees.
+
+MISE A JOUR SUR GITHUB
+1. Ouvrir https://github.com/mohandiberraken452-hue/AFPEED
+2. Choisir Add file > Upload files.
+3. Envoyer index.html a la racine du depot, remplacer la version existante.
+4. Valider Commit changes.
+5. Attendre la publication puis ouvrir
+   https://mohandiberraken452-hue.github.io/AFPEED/#/home
+6. Si ancienne version : Ctrl+F5 ou fenetre privee.
+
+Vous n'avez PAS besoin d'envoyer les photos separement :
+elles sont incluses dans index.html.
+L'ancien app.js et styles.css peuvent rester dans le depot ;
+cette nouvelle page n'en depend pas.
