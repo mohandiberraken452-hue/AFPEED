@@ -1,12 +1,19 @@
-AFPEED DIGITAL — MISE À JOUR DIRECTIONS ALGER + DJELFA
+AFPEED DIGITAL — VERSION 5 DIRECTIONS (22/11/2026)
 
-1. Ouvrir le dépôt https://github.com/mohandiberraken452-hue/AFPEED
-2. Ouvrir index.html > Edit (icône crayon) puis remplacer son contenu par celui du nouvel index.html (si le navigateur le permet), ou utiliser Add file > Upload files et confirmer le remplacement du fichier index.html à la racine du dépôt.
-3. Confirmer le commit sur la branche main. Ne pas placer le fichier dans un sous-dossier.
-4. Vérifier Actions > pages build and deployment (coche verte).
-5. Ouvrir https://mohandiberraken452-hue.github.io/AFPEED/#/direction
-6. Actualiser avec Ctrl+F5 si l'ancienne version reste affichée.
+DIRECTIONS
+- Alger : Iberraken Mohand Cherif Nassim — afpeed.alger16@gmail.com
+- Djelfa : طارق ضيف — afpeed.djelfa@gmail.com — 0771 69 60 04 — fax 028 64 22 60
+- Jijel : Hamza Lagoug / لعقوق حمزة — afpeeddjijel@gmail.com
+- Tlemcen : Rabie Krif / ربيع كريف (nom lu sur la photo) — 0666 14 89 49
+- Illizi : Saif Krim (nom communiqué) / كريم سيف الدين (nom visible sur la photo) — afpeedillizi@gmail.com — 0660 34 12 03
 
-Contenu : conservation de la direction d'Alger, ajout de la direction de Djelfa avec photo intégrée, e-mail, téléphone, WhatsApp, fax et lien Google Maps. Français/arabe conservés. Site statique sans base de données.
+IMPORTANT : vérifier le nom de la direction d'Illizi avant diffusion officielle, car le nom donné et le nom sur la photo ne sont pas identiques.
 
-Note : le nom en arabe « طارق ضيف » est repris du texte visible sur la photo fournie. Vérifier l'orthographe et le titre avant diffusion officielle.
+PUBLIER SUR GITHUB PAGES :
+1. Ouvrir https://github.com/mohandiberraken452-hue/AFPEED
+2. Décompresser le ZIP et envoyer index.html à la RACINE du dépôt (main) via Add file > Upload files.
+3. Remplacer l'ancien index.html et valider Commit changes. Ne pas mettre le dossier entier à la racine.
+4. Attendre la coche verte de Pages dans Actions.
+5. Ouvrir https://mohandiberraken452-hue.github.io/AFPEED/#/direction et Ctrl+F5.
+
+Les photos sont incorporées dans index.html. Ne pas supprimer les autres fichiers du dépôt. Les autres pages restent conservées.
