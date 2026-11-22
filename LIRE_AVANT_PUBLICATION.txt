@@ -1,31 +1,8 @@
-AFPEED DIGITAL - ACCUEIL IMMERSIF 3D
-Version du 22 novembre 2026
+AFPEED DIGITAL - Nouvelle version accueil (photos + direction regionale Ouest)
 
-CONTENU
-- index.html : site public autonome (HTML, CSS, JavaScript, photos integres).
-- .nojekyll : conserver ce fichier a la racine du depot GitHub.
+1. Dans GitHub, ouvrez le depot siteofficiel1/AFPEED.
+2. Remplacez le fichier index.html a la racine par le fichier index.html de ce dossier.
+3. Cliquez Commit changes, attendez GitHub Pages, puis rechargez avec Ctrl+F5.
 
-NOUVEAUTES
-- Accueil institutionnel bleu nuit, vert et or, avec effets de profondeur.
-- Portrait du president conserve en premier, animation flottante et effet 3D a la souris.
-- Globe 3D anime en Canvas : liaisons Algerie, France, Italie, Espagne et Tunisie.
-- Animation des connexions et globe manipulable a la souris ou au toucher.
-- Cartes des objectifs et du parcours avec animations discretes.
-- Apparitions progressives au defilement.
-- Mode de mouvement reduit respecte, et affichage mobile adapte.
-- Aucune bibliotheque externe, aucun serveur, aucune base de donnees.
-- Rubriques, photos, directions de wilaya, relations internationales, publications,
-  et traductions FR/AR conservees dans le fichier d'origine.
-
-INSTALLATION GITHUB PAGES
-1. Ouvrir https://github.com/mohandiberraken452-hue/AFPEED
-2. A la racine du depot, remplacer l'ancien index.html par le nouveau index.html.
-3. Valider via Commit changes.
-4. Attendre le deploiement GitHub Pages.
-5. Ouvrir https://mohandiberraken452-hue.github.io/AFPEED/#/home
-6. Si l'ancienne page s'affiche encore, recharger avec Ctrl + F5.
-
-IMPORTANT
-Le site reste une presentation statique. Les fonctions de compte et de base de donnees
-ne peuvent pas fonctionner sur GitHub Pages seul.
-Les portraits et textes sont repris du ZIP AFPEED-main.zip transmis.
+Toutes les photos sont integrees dans index.html.
+Le reste du site et les animations 3D sont conserves.
