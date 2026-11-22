@@ -1,24 +1,19 @@
-AFPEED DIGITAL — ACCUEIL ET RELATIONS INTERNATIONALES
+AFPEED DIGITAL — Mise à jour 22 novembre 2026
 
-MODIFICATIONS
-- Le portrait du président Ghilan Talha est maintenant en premier dans l’accueil.
-- La photo de présentation institutionnelle AFPEED se trouve plus bas.
-- Deux objectifs ajoutés : liaisons microentreprises/marchés étrangers et coopération économique.
-- Nouvelle section Relations internationales : France, Italie, Espagne, Tunisie.
-- Coordinateur : Bensaidi Abdelkader (photo fournie).
-- Italie : بوعبيدة أبرار (photo fournie).
-- Espagne : نقاز سيد أحمد (photo fournie).
-- Tunisie : مندر البحري (photo fournie).
-- Toutes les autres rubriques, les 5 directions et les langues FR/AR restent conservées.
+Fichier à remplacer : index.html (à la racine du dépôt GitHub AFPEED).
+Cette version conserve les rubriques et les cinq directions de wilaya.
 
-ATTENTION : L’EMAIL DU COORDINATEUR N’A PAS ÉTÉ FOURNI. La section affiche donc « Adresse e-mail du coordinateur à communiquer ». Remplacer par son adresse officielle avant diffusion finale. Aucune adresse de bureau physique n’a été fournie : ne pas en inventer.
+Modifications :
+- Email du coordinateur Bensaidi Abdelkader : abdelkaderbensadi12@gmail.com
+- Deux portraits du relais AFPEED en France, intégrés au HTML (Ibris Mounira et président du conseil consultatif, sans nom non fourni).
+- Événements & articles : formulaire de rédaction supprimé ; lecture seule des articles existants et section événements conservée.
+- Les articles de présentation ne sont pas présentés comme des annonces officielles ; aucun événement officiel daté n'a été fourni.
 
-PUBLIER SUR GITHUB PAGES
-1. Décompresser le ZIP.
+Publication :
+1. Décompresser ce ZIP.
 2. Ouvrir https://github.com/mohandiberraken452-hue/AFPEED
-3. Ajouter le nouveau index.html À LA RACINE du dépôt (pas dans un sous-dossier) avec Add file > Upload files.
-4. Valider le remplacement de index.html avec Commit changes. Ne pas supprimer les autres fichiers.
-5. Attendre le déploiement vert dans GitHub Actions.
-6. Ouvrir https://mohandiberraken452-hue.github.io/AFPEED/#/home puis Ctrl+F5.
+3. Add file > Upload files ; envoyer index.html au niveau racine (remplacer le fichier existant).
+4. Commit changes.
+5. Attendre la fin du déploiement puis actualiser avec Ctrl+F5.
 
-Le fichier index.html contient les photos directement : aucun dossier assets nécessaire.
+Site : https://mohandiberraken452-hue.github.io/AFPEED/#/home
