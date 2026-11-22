@@ -1,19 +1,24 @@
-AFPEED DIGITAL — VERSION 5 DIRECTIONS (22/11/2026)
+AFPEED DIGITAL — ACCUEIL ET RELATIONS INTERNATIONALES
 
-DIRECTIONS
-- Alger : Iberraken Mohand Cherif Nassim — afpeed.alger16@gmail.com
-- Djelfa : طارق ضيف — afpeed.djelfa@gmail.com — 0771 69 60 04 — fax 028 64 22 60
-- Jijel : Hamza Lagoug / لعقوق حمزة — afpeeddjijel@gmail.com
-- Tlemcen : Rabie Krif / ربيع كريف (nom lu sur la photo) — 0666 14 89 49
-- Illizi : Saif Krim (nom communiqué) / كريم سيف الدين (nom visible sur la photo) — afpeedillizi@gmail.com — 0660 34 12 03
+MODIFICATIONS
+- Le portrait du président Ghilan Talha est maintenant en premier dans l’accueil.
+- La photo de présentation institutionnelle AFPEED se trouve plus bas.
+- Deux objectifs ajoutés : liaisons microentreprises/marchés étrangers et coopération économique.
+- Nouvelle section Relations internationales : France, Italie, Espagne, Tunisie.
+- Coordinateur : Bensaidi Abdelkader (photo fournie).
+- Italie : بوعبيدة أبرار (photo fournie).
+- Espagne : نقاز سيد أحمد (photo fournie).
+- Tunisie : مندر البحري (photo fournie).
+- Toutes les autres rubriques, les 5 directions et les langues FR/AR restent conservées.
 
-IMPORTANT : vérifier le nom de la direction d'Illizi avant diffusion officielle, car le nom donné et le nom sur la photo ne sont pas identiques.
+ATTENTION : L’EMAIL DU COORDINATEUR N’A PAS ÉTÉ FOURNI. La section affiche donc « Adresse e-mail du coordinateur à communiquer ». Remplacer par son adresse officielle avant diffusion finale. Aucune adresse de bureau physique n’a été fournie : ne pas en inventer.
 
-PUBLIER SUR GITHUB PAGES :
-1. Ouvrir https://github.com/mohandiberraken452-hue/AFPEED
-2. Décompresser le ZIP et envoyer index.html à la RACINE du dépôt (main) via Add file > Upload files.
-3. Remplacer l'ancien index.html et valider Commit changes. Ne pas mettre le dossier entier à la racine.
-4. Attendre la coche verte de Pages dans Actions.
-5. Ouvrir https://mohandiberraken452-hue.github.io/AFPEED/#/direction et Ctrl+F5.
+PUBLIER SUR GITHUB PAGES
+1. Décompresser le ZIP.
+2. Ouvrir https://github.com/mohandiberraken452-hue/AFPEED
+3. Ajouter le nouveau index.html À LA RACINE du dépôt (pas dans un sous-dossier) avec Add file > Upload files.
+4. Valider le remplacement de index.html avec Commit changes. Ne pas supprimer les autres fichiers.
+5. Attendre le déploiement vert dans GitHub Actions.
+6. Ouvrir https://mohandiberraken452-hue.github.io/AFPEED/#/home puis Ctrl+F5.
 
-Les photos sont incorporées dans index.html. Ne pas supprimer les autres fichiers du dépôt. Les autres pages restent conservées.
+Le fichier index.html contient les photos directement : aucun dossier assets nécessaire.
