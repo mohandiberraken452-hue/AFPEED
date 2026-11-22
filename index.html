@@ -3,9 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#12594b">
+<meta name="theme-color" content="#0a2935">
 <meta name="description" content="AFPEED — Fondation algérienne pour la promotion de l'entrepreneuriat et du développement économique. Formation, accompagnement et partenariats en Algérie.">
-<title>AFPEED DIGITAL — Présentation, objectifs et contact</title>
+<title>AFPEED DIGITAL — Entreprendre, innover et se connecter</title>
 <style>
 * {
   box-sizing: border-box;
@@ -2312,6 +2312,62 @@ body{min-height:100vh}
 @media(max-width:1100px){.af-france-people{grid-template-columns:1fr}.af-intl-grid--three{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:640px){.af-france-relay{padding:17px}.af-france-head{align-items:flex-start}.af-france-count{font-size:25px}.af-france-person{grid-template-columns:1fr}.af-france-portrait{height:auto;min-height:0;max-height:350px}.af-france-portrait img{height:auto;max-height:350px;object-fit:contain}.af-france-person-copy{padding:18px}.af-intl-grid--three{grid-template-columns:1fr}}
 
+
+/* AFPEED DIGITAL | Accueil immersif 3D, sans dependance externe */
+:root{--af-navy:#071b2b;--af-gold:#e7c77c;--af-jade:#43d2a0}
+.af-hero{position:relative;isolation:isolate;background:radial-gradient(ellipse at 80% 12%,#1c5562 0%,transparent 43%),radial-gradient(ellipse at 12% 95%,#164d43 0%,transparent 47%),linear-gradient(126deg,#071827 2%,#0c2936 55%,#102e36 100%);color:#fff;overflow:hidden}
+.af-hero:before{content:"";position:absolute;inset:-25%;pointer-events:none;z-index:-1;background:radial-gradient(circle at 25% 30%,#3cbd9b21 0 1px,transparent 2px),radial-gradient(circle at 70% 75%,#f6d58933 0 1px,transparent 2px);background-size:67px 67px,113px 113px;opacity:.6;animation:afStars 24s linear infinite}
+.af-hero:after{content:"";position:absolute;right:-14%;top:-70%;width:70vw;aspect-ratio:1;border:1px solid #d4f9e814;border-radius:50%;box-shadow:0 0 0 70px #d4f9e806,0 0 0 145px #d4f9e805;pointer-events:none;z-index:-1;animation:afOrbitPulse 10s ease-in-out infinite alternate}
+.af-hero-grid{position:relative;z-index:1;padding-top:94px;padding-bottom:94px;gap:65px}
+.af-hero .af-pill{background:#e9f6e91a;border-color:#a4dfc44d;color:#e4f9e9;backdrop-filter:blur(14px)}
+.af-hero .af-pill-dot{box-shadow:0 0 0 4px #42dc9c22,0 0 15px #6dffc1}
+.af-hero h1{color:#fff;font-size:clamp(36px,4.35vw,65px);line-height:1.1;letter-spacing:-2.2px;text-wrap:balance}
+.af-hero .af-hero-sub{color:#e8d39b;font-size:clamp(15px,1.55vw,19px)}
+.af-hero .af-intro-text{color:#d2e2e2;font-size:15px;line-height:1.9}
+.af-hero .af-primary{background:linear-gradient(120deg,#e7c77c,#f5e3b2);border-color:#e7c77c;color:#102d31;box-shadow:0 8px 30px #e6c67b30}
+.af-hero .af-secondary{background:#ffffff13;border-color:#d5eee94b;color:#f0f7f4;backdrop-filter:blur(10px)}
+.af-hero .af-primary:hover,.af-hero .af-secondary:hover{box-shadow:0 12px 30px #7fe2bc33}
+.af-hero .af-hero-meta{color:#c9e7db}
+.af-hero .af-hero-meta span{background:#ffffff13;border:1px solid #ffffff1b;color:#e7f7ed}
+.af-hero-photo--president{border:1px solid #e6cb8d95;box-shadow:0 38px 95px #0008,0 0 0 9px #ffffff0b,0 0 70px #56b6a52c;transform-style:preserve-3d;will-change:transform;transition:transform .4s cubic-bezier(.2,.75,.25,1),box-shadow .35s;animation:afPortraitFloat 8s ease-in-out infinite}
+.af-hero-photo--president:before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(110deg,transparent 20%,#ffffff20 42%,transparent 59%);transform:translateX(-120%);animation:afShimmer 11s ease-in-out infinite}
+.af-hero-photo--president figcaption{z-index:2;background:linear-gradient(transparent,#051d2ef5)}
+.af-hero-photo--president img{object-position:center 34%;filter:saturate(1.06)}
+.af-intro-strip{background:linear-gradient(90deg,#0b3b38,#115646,#0b3b38);border-top:1px solid #d9c68a55;border-bottom:1px solid #e7c77c50}
+.af-intro-strip-inner span{transition:transform .25s,color .25s}.af-intro-strip-inner span:hover{transform:translateY(-3px);color:#f5d68b}
+.af-goal,.path-card,.af-france-person,.af-intl-country,.af-contact-card{transition:transform .28s ease,box-shadow .28s ease,border-color .28s ease;transform-style:preserve-3d}
+.af-goal:hover,.path-card:hover,.af-france-person:hover,.af-intl-country:hover,.af-contact-card:hover{box-shadow:0 23px 45px #0b493021;border-color:#85bfa9}
+.af-goal-icon,.path-icon{display:inline-block;transition:transform .4s cubic-bezier(.2,.75,.2,1)}
+.af-goal:hover .af-goal-icon,.path-card:hover .path-icon{transform:translateY(-5px) rotate(-9deg) scale(1.12)}
+.af-globe-section{position:relative;overflow:hidden;isolation:isolate;background:radial-gradient(circle at 78% 50%,#144d55 0%,transparent 45%),linear-gradient(110deg,#071b2b,#0a2c37 70%,#0a3a3b);color:white;padding:92px 5%;border-bottom:1px solid #ddc58a40}
+.af-globe-section:before{content:"";position:absolute;inset:0;background-image:radial-gradient(#c4e8dc44 .8px,transparent .8px);background-size:27px 27px;mask-image:linear-gradient(90deg,transparent,#000);pointer-events:none;opacity:.45}
+.af-globe-inner{position:relative;max-width:1320px;margin:auto;display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);align-items:center;gap:48px}
+.af-globe-copy{position:relative;z-index:2}.af-globe-kicker{display:inline-flex;align-items:center;gap:10px;font-size:11px;font-weight:800;letter-spacing:.18em;color:#e6cb8a;margin-bottom:22px}
+.af-globe-kicker:before{content:"";width:24px;height:1px;background:#e6cb8a}
+.af-globe-copy h2{font-size:clamp(30px,3.7vw,54px);line-height:1.13;letter-spacing:-1.4px;color:#fff;margin-bottom:22px;max-width:610px}
+.af-globe-copy h2 em{font-style:normal;color:#e7cc8b}.af-globe-copy p{color:#b9d6d4;line-height:1.85;font-size:15px;max-width:530px}
+.af-globe-facts{display:flex;flex-wrap:wrap;gap:11px;margin:28px 0}.af-globe-facts span{display:inline-flex;align-items:center;gap:9px;padding:9px 12px;border:1px solid #8ad7b84a;background:#ffffff0a;border-radius:999px;font-size:12px;color:#e8f5ed}
+.af-globe-cta{display:inline-flex;align-items:center;gap:12px;border:1px solid #dfca8b;color:#092e30;background:linear-gradient(110deg,#ead196,#fff0c4);padding:13px 20px;border-radius:12px;font-weight:800;cursor:pointer;transition:transform .2s,box-shadow .2s}
+.af-globe-cta:hover{transform:translateY(-3px);box-shadow:0 12px 28px #e9c8813a}
+.af-globe-stage{position:relative;min-height:540px;display:grid;place-items:center;isolation:isolate}
+.af-globe-stage:before{content:"";position:absolute;width:80%;aspect-ratio:1;border-radius:50%;border:1px solid #5fbbac33;box-shadow:0 0 0 38px #5fbbac0c,0 0 0 84px #5fbbac08,0 0 130px #3bc0ab27;animation:afOrbitPulse 7s ease-in-out infinite alternate;pointer-events:none}
+.af-globe-stage:after{content:"";position:absolute;width:95%;height:1px;bottom:16%;background:linear-gradient(90deg,transparent,#e7c77c6b,transparent);pointer-events:none}
+.af-globe-canvas{position:relative;z-index:1;width:100%;max-width:650px;aspect-ratio:1;display:block;touch-action:pan-y;cursor:grab}.af-globe-canvas:active{cursor:grabbing}
+.af-globe-chip{position:absolute;z-index:2;border:1px solid #b5e9db55;background:#0a2a37d9;backdrop-filter:blur(15px);padding:10px 14px;border-radius:12px;box-shadow:0 10px 30px #0006;display:flex;align-items:center;gap:9px;font-size:12px;font-weight:800;color:#f6f9f4;pointer-events:none;animation:afChipFloat 5s ease-in-out infinite}
+.af-globe-chip span{font-size:18px}.af-globe-chip--one{top:10%;right:1%}.af-globe-chip--two{bottom:18%;left:-2%;animation-delay:-2s}.af-globe-chip--three{bottom:7%;right:6%;animation-delay:-3s}
+.af-globe-hint{position:absolute;bottom:4%;left:50%;transform:translateX(-50%);white-space:nowrap;color:#9dc1c0;font-size:11px;letter-spacing:.08em}
+.af-reveal{opacity:1;transform:none}.af-motion-on .af-reveal{opacity:0;transform:translateY(28px);transition:opacity .75s ease,transform .75s cubic-bezier(.18,.75,.28,1)}.af-motion-on .af-reveal.af-visible{opacity:1;transform:translateY(0)}
+.af-motion-on .af-reveal:nth-child(2){transition-delay:.08s}.af-motion-on .af-reveal:nth-child(3){transition-delay:.14s}
+@keyframes afStars{to{transform:translate3d(45px,-40px,0)}}
+@keyframes afOrbitPulse{from{transform:scale(.98);opacity:.6}to{transform:scale(1.05);opacity:1}}
+@keyframes afPortraitFloat{0%,100%{translate:0 0}50%{translate:0 -9px}}
+@keyframes afChipFloat{0%,100%{translate:0 0}50%{translate:0 -10px}}
+@keyframes afShimmer{0%,15%{transform:translateX(-120%)}35%,100%{transform:translateX(160%)}}
+@media(max-width:1050px){.af-globe-inner{gap:20px}.af-globe-stage{min-height:460px}.af-globe-chip--two{left:0}.af-hero-grid{gap:35px}}
+@media(max-width:760px){.af-hero-grid{padding-top:55px;padding-bottom:58px}.af-hero h1{font-size:clamp(34px,8vw,46px);letter-spacing:-1.3px}.af-hero-photo--president{max-width:570px;width:100%;margin:auto;aspect-ratio:1.2}.af-globe-section{padding:68px 18px 55px}.af-globe-inner{grid-template-columns:1fr;gap:5px}.af-globe-copy h2{font-size:clamp(30px,7vw,42px)}.af-globe-stage{min-height:0;width:100%;max-width:540px;margin:auto}.af-globe-chip{padding:7px 10px;font-size:10px}.af-globe-chip--one{top:7%;right:0}.af-globe-chip--two{bottom:19%;left:0}.af-globe-chip--three{bottom:6%;right:0}.af-globe-hint{bottom:0;font-size:10px}.af-hero:after{width:130vw;right:-70%;top:-20%}}
+@media(max-width:430px){.af-globe-chip--two{bottom:14%}.af-globe-chip--three{bottom:1%}.af-globe-hint{display:none}.af-globe-stage{margin-top:14px}.af-globe-facts{gap:7px}.af-globe-facts span{font-size:11px;padding:7px 9px}}
+@media(prefers-reduced-motion:reduce){.af-hero:before,.af-hero:after,.af-hero-photo--president,.af-hero-photo--president:before,.af-globe-stage:before,.af-globe-chip{animation:none!important}.af-motion-on .af-reveal{opacity:1!important;transform:none!important;transition:none!important}.af-hero-photo--president{transition:none!important}}
+
 </style>
 </head>
 <body>
@@ -2378,6 +2434,29 @@ body{min-height:100vh}
       <span>◎ ${t('Accompagner les projets','مرافقة المشاريع')}</span>
       <span>↗ ${t('Créer des opportunités','خلق الفرص')}</span>
       <span>♧ ${t('Développer les partenariats','تطوير الشراكات')}</span>
+    </div>
+  </section>
+
+  <section class="af-globe-section" aria-labelledby="af-globe-title">
+    <div class="af-globe-inner">
+      <div class="af-globe-copy">
+        <div class="af-globe-kicker">AFPEED · ${t('CONNEXIONS INTERNATIONALES','الروابط الدولية')}</div>
+        <h2 id="af-globe-title">${t('Des idées algériennes. <em>Des horizons sans frontières.</em>','أفكار جزائرية. <em>آفاق بلا حدود.</em>')}</h2>
+        <p>${t('De l’Algérie vers la France, l’Italie, l’Espagne et la Tunisie : découvrez comment notre réseau de relations peut rapprocher les porteurs de projets et les microentreprises des marchés, compétences et partenaires à l’étranger.','من الجزائر إلى فرنسا وإيطاليا وإسبانيا وتونس: اكتشف كيف يمكن لشبكة علاقاتنا أن تقرّب أصحاب المشاريع والمؤسسات المصغرة من الأسواق والكفاءات والشركاء في الخارج.')}</p>
+        <div class="af-globe-facts">
+          <span>✦ ${t('Mise en relation','الربط بين الشركاء')}</span>
+          <span>↗ ${t('Coopération économique','التعاون الاقتصادي')}</span>
+          <span>◎ ${t('Ouverture sur les marchés','الانفتاح على الأسواق')}</span>
+        </div>
+        <button class="af-globe-cta" data-scroll="af-international">${t('Explorer notre réseau','اكتشف شبكتنا')} <span aria-hidden="true">↗</span></button>
+      </div>
+      <div class="af-globe-stage">
+        <canvas class="af-globe-canvas" width="650" height="650" role="img" aria-label="${t('Globe tridimensionnel animé présentant les liens entre l’Algérie, la France, l’Italie, l’Espagne et la Tunisie','كرة أرضية ثلاثية الأبعاد تعرض الروابط بين الجزائر وفرنسا وإيطاليا وإسبانيا وتونس')}"></canvas>
+        <div class="af-globe-chip af-globe-chip--one"><span>🇩🇿</span>${t('Point de départ : Algérie','نقطة الانطلاق: الجزائر')}</div>
+        <div class="af-globe-chip af-globe-chip--two"><span>🇪🇺</span>${t('Réseaux européens','شبكات أوروبية')}</div>
+        <div class="af-globe-chip af-globe-chip--three"><span>✦</span>${t('Partenariats & opportunités','شراكات وفرص')}</div>
+        <div class="af-globe-hint">${t('FAITES GLISSER POUR EXPLORER','اسحب لاستكشاف الكرة الأرضية')} · 3D</div>
+      </div>
     </div>
   </section>
   <section id="af-objectifs" class="af-section af-goals">
@@ -2584,12 +2663,133 @@ body{min-height:100vh}
     [t('Mes réponses au questionnaire sont-elles enregistrées ?','هل يتم حفظ إجاباتي على الاستبيان؟'),t('Non. Le questionnaire d’orientation fonctionne dans votre navigateur, sans transmission à un serveur.','لا، يعمل استبيان التوجيه في متصفحك دون إرسال البيانات إلى خادم.')]
   ].map(([q,a])=>`<details><summary>${q}</summary><p>${a}</p></details>`).join('')}</div></div>`;}
   function legal(){return `<div class="static-container">${heading(t('INFORMATIONS','معلومات'),t('Confidentialité et limites du site','الخصوصية وحدود الموقع'))}<div class="static-panel"><h2>${t('À propos de cette édition','حول هذه النسخة')}</h2><p>${t('Cette édition publique a été adaptée à partir de l’interface fournie d’AFPEED DIGITAL. Elle ne contient ni base de données, ni authentification, ni formulaires de collecte de données personnelles.','تم تكييف هذه النسخة العامة من واجهة AFPEED DIGITAL المقدمة. لا تحتوي على قاعدة بيانات أو مصادقة أو استمارات لجمع البيانات الشخصية.')}</p><h2>${t('Données locales','البيانات المحلية')}</h2><p>${t('Le choix de langue et les publications de démonstration peuvent être conservés dans le stockage local de votre navigateur. Le questionnaire d’orientation n’est pas sauvegardé. GitHub, en tant qu’hébergeur, peut traiter des données techniques de consultation selon ses propres règles.','يمكن حفظ اختيار اللغة والمنشورات التجريبية محليا في متصفحك. لا يتم حفظ استبيان التوجيه. قد يعالج GitHub بيانات تقنية للزيارة وفق سياساته.')}</p><h2>${t('Documents officiels','الوثائق الرسمية')}</h2><p>${t('Les conditions d’utilisation et la politique de confidentialité officielles de la plateforme complète n’étaient pas présentes dans le ZIP transmis et ne sont pas reproduites ici.','شروط الاستخدام وسياسة الخصوصية الرسمية للمنصة الكاملة لم تكن ضمن الملف المرسل ولم يتم نسخها هنا.')}</p></div></div>`;}
+  // Globe 3D projete en canvas, animation locale, aucun service externe.
+  let afMotionCleanup = null;
+  function initAfMotion(){
+    if(afMotionCleanup){afMotionCleanup();afMotionCleanup=null;}
+    if(current()!=='home')return;
+    const section=app.querySelector('.af-globe-section');
+    if(!section)return;
+    const canvas=section.querySelector('canvas');
+    const ctx=canvas.getContext('2d');
+    if(!ctx)return;
+    const reduce=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const cleanups=[];
+    let alive=true,raf=0,visible=true,drag=false,dragStart=0,dragAngle=0,angle=0,frame=0;
+    let W=560,H=560,dpr=1;
+    const points=[
+      {lat:36.75,lon:3.06,flag:'🇩🇿',fr:'ALGÉRIE',ar:'الجزائر',home:true},
+      {lat:48.86,lon:2.35,flag:'🇫🇷',fr:'France',ar:'فرنسا'},
+      {lat:41.90,lon:12.49,flag:'🇮🇹',fr:'Italie',ar:'إيطاليا'},
+      {lat:40.42,lon:-3.70,flag:'🇪🇸',fr:'Espagne',ar:'إسبانيا'},
+      {lat:36.81,lon:10.18,flag:'🇹🇳',fr:'Tunisie',ar:'تونس'}
+    ];
+    function resize(){
+      const rect=canvas.getBoundingClientRect();
+      W=Math.max(240,rect.width||560);H=Math.max(240,rect.height||560);
+      dpr=Math.min(window.devicePixelRatio||1,2);
+      canvas.width=Math.round(W*dpr);canvas.height=Math.round(H*dpr);
+      ctx.setTransform(dpr,0,0,dpr,0,0);
+      draw();
+    }
+    function project(lat,lon,rad,centerLon,centerLat){
+      const la=lat*Math.PI/180,dl=(lon-centerLon)*Math.PI/180,cl=centerLat*Math.PI/180;
+      const x=Math.cos(la)*Math.sin(dl),y=Math.sin(la)*Math.cos(cl)-Math.cos(la)*Math.cos(dl)*Math.sin(cl);
+      const z=Math.sin(la)*Math.sin(cl)+Math.cos(la)*Math.cos(dl)*Math.cos(cl);
+      return {x:W/2+rad*x,y:H/2-rad*y,z};
+    }
+    function line(a,b,color,width){ctx.strokeStyle=color;ctx.lineWidth=width;ctx.beginPath();ctx.moveTo(a.x,a.y);ctx.lineTo(b.x,b.y);ctx.stroke();}
+    function draw(){
+      if(!alive)return;
+      ctx.clearRect(0,0,W,H);
+      const r=Math.min(W,H)*.367,cx=W/2,cy=H/2;
+      const lon=9+angle,lat=34;
+      const halo=ctx.createRadialGradient(cx,cy,r*.35,cx,cy,r*1.44);
+      halo.addColorStop(0,'rgba(51,206,175,.11)');halo.addColorStop(.65,'rgba(36,193,162,.14)');halo.addColorStop(1,'rgba(0,0,0,0)');
+      ctx.fillStyle=halo;ctx.beginPath();ctx.arc(cx,cy,r*1.45,0,Math.PI*2);ctx.fill();
+      const ocean=ctx.createRadialGradient(cx-r*.45,cy-r*.65,r*.05,cx,cy,r*1.22);
+      ocean.addColorStop(0,'#2a777a');ocean.addColorStop(.27,'#164c60');ocean.addColorStop(.75,'#0c2e47');ocean.addColorStop(1,'#061c2e');
+      ctx.beginPath();ctx.arc(cx,cy,r,0,Math.PI*2);ctx.fillStyle=ocean;ctx.fill();
+      ctx.strokeStyle='rgba(154,245,216,.45)';ctx.lineWidth=1.3;ctx.stroke();
+      ctx.save();ctx.beginPath();ctx.arc(cx,cy,r-1,0,Math.PI*2);ctx.clip();
+      for(let L=-75;L<=75;L+=15){
+        let prev=null;
+        for(let n=-180;n<=180;n+=3){const p=project(L,n,r,lon,lat);if(p.z>0){if(prev)line(prev,p,'rgba(110,220,199,.18)',.65);prev=p;}else prev=null;}
+      }
+      for(let L=-180;L<=180;L+=15){
+        let prev=null;
+        for(let n=-90;n<=90;n+=3){const p=project(n,L,r,lon,lat);if(p.z>0){if(prev)line(prev,p,'rgba(110,220,199,.16)',.65);prev=p;}else prev=null;}
+      }
+      // Silhouette de la Mediterranee et de l'Afrique du Nord, points stylises (non cartographiques).
+      const coastline=[[36,-9],[37,-6],[36,-2],[36,3],[37,8],[37,11],[34,11],[33,15],[32,20],[31,25],[30,31],[25,34],[20,35],[12,40]];
+      for(let i=1;i<coastline.length;i++){
+        const a=project(coastline[i-1][0],coastline[i-1][1],r,lon,lat),b=project(coastline[i][0],coastline[i][1],r,lon,lat);
+        if(a.z>0&&b.z>0)line(a,b,'rgba(111,222,166,.38)',2);
+      }
+      const al=project(points[0].lat,points[0].lon,r,lon,lat);
+      points.slice(1).forEach((p,i)=>{
+        const b=project(p.lat,p.lon,r,lon,lat);
+        if(al.z<0||b.z<0)return;
+        const midLat=(p.lat+points[0].lat)/2+6,midLon=(p.lon+points[0].lon)/2;
+        const mid=project(midLat,midLon,r*1.13,lon,lat);
+        ctx.beginPath();ctx.moveTo(al.x,al.y);ctx.quadraticCurveTo(mid.x,mid.y,b.x,b.y);
+        ctx.strokeStyle='rgba(244,207,131,.67)';ctx.lineWidth=1.4;ctx.stroke();
+        const progress=((frame*.0028+i*.21)%1);
+        const x=(1-progress)*(1-progress)*al.x+2*(1-progress)*progress*mid.x+progress*progress*b.x;
+        const y=(1-progress)*(1-progress)*al.y+2*(1-progress)*progress*mid.y+progress*progress*b.y;
+        ctx.beginPath();ctx.arc(x,y,2.8,0,Math.PI*2);ctx.fillStyle='#f9d991';ctx.shadowColor='#f9d991';ctx.shadowBlur=12;ctx.fill();ctx.shadowBlur=0;
+      });
+      points.forEach((p)=>{
+        const a=project(p.lat,p.lon,r,lon,lat);if(a.z<0)return;
+        const radius=p.home?6.2:4.3;
+        ctx.beginPath();ctx.arc(a.x,a.y,radius*2.4,0,Math.PI*2);ctx.fillStyle=p.home?'rgba(247,214,145,.12)':'rgba(100,244,193,.1)';ctx.fill();
+        ctx.beginPath();ctx.arc(a.x,a.y,radius,0,Math.PI*2);ctx.fillStyle=p.home?'#ffe1a0':'#62e5bd';ctx.shadowBlur=14;ctx.shadowColor=ctx.fillStyle;ctx.fill();ctx.shadowBlur=0;
+      });
+      ctx.restore();
+      // Halo sur le limbe de la sphere.
+      ctx.beginPath();ctx.arc(cx,cy,r,0,Math.PI*2);ctx.strokeStyle='rgba(171,241,219,.5)';ctx.lineWidth=1.4;ctx.stroke();
+      const shine=ctx.createLinearGradient(cx-r,cy-r,cx+r,cy+r);
+      shine.addColorStop(0,'rgba(244,222,164,.15)');shine.addColorStop(.5,'rgba(255,255,255,0)');shine.addColorStop(1,'rgba(16,167,140,.12)');
+      ctx.beginPath();ctx.arc(cx,cy,r,0,Math.PI*2);ctx.strokeStyle=shine;ctx.lineWidth=9;ctx.stroke();
+      ctx.fillStyle='#d9f8e9';ctx.font=`700 ${Math.max(10,W*.021)}px Arial, sans-serif`;
+      ctx.textAlign='center';ctx.fillText(lang==='ar'?'الجزائر • شبكة العلاقات':'ALGÉRIE • RÉSEAU INTERNATIONAL',cx,cy+r+34);
+    }
+    function tick(){if(!alive||!visible)return;frame++;if(!reduce&&!drag)angle=Math.sin(frame*.0027)*10;draw();if(!reduce)raf=requestAnimationFrame(tick);}
+    const intersection=new IntersectionObserver((entries)=>{
+      visible=entries[0].isIntersecting;
+      if(visible){cancelAnimationFrame(raf);if(reduce)draw();else raf=requestAnimationFrame(tick);}else cancelAnimationFrame(raf);
+    },{threshold:.03});intersection.observe(section);cleanups.push(()=>intersection.disconnect());
+    const onDown=e=>{if(reduce)return;drag=true;dragStart=e.clientX;dragAngle=angle;canvas.setPointerCapture(e.pointerId);};
+    const onMove=e=>{if(drag){angle=dragAngle+(e.clientX-dragStart)*.18;draw();}};
+    const onUp=()=>{drag=false;};
+    canvas.addEventListener('pointerdown',onDown);canvas.addEventListener('pointermove',onMove);canvas.addEventListener('pointerup',onUp);canvas.addEventListener('pointercancel',onUp);
+    cleanups.push(()=>{canvas.removeEventListener('pointerdown',onDown);canvas.removeEventListener('pointermove',onMove);canvas.removeEventListener('pointerup',onUp);canvas.removeEventListener('pointercancel',onUp);});
+    const resizer=new ResizeObserver(resize);resizer.observe(canvas);cleanups.push(()=>resizer.disconnect());resize();
+    const revealEls=[...app.querySelectorAll('.af-goal,.path-card,.af-intl-country,.af-france-person,.af-section-heading,.af-globe-copy,.af-globe-stage,.af-home-news,.af-intl-coordinator')];
+    if(!reduce&&'IntersectionObserver' in window){
+      const rev=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('af-visible');rev.unobserve(entry.target);}}),{threshold:.08,rootMargin:'0px 0px 45px 0px'});
+      revealEls.forEach(el=>{el.classList.add('af-reveal');rev.observe(el);});
+      app.classList.add('af-motion-on');cleanups.push(()=>rev.disconnect());
+    }
+    if(!reduce&&window.matchMedia('(hover:hover) and (pointer:fine)').matches){
+      const targets=[...app.querySelectorAll('.af-goal,.path-card,.af-hero-photo--president')];
+      targets.forEach(el=>{
+        const onTilt=e=>{const rect=el.getBoundingClientRect(),x=(e.clientX-rect.left)/rect.width-.5,y=(e.clientY-rect.top)/rect.height-.5;el.style.transform=`perspective(1000px) rotateX(${-y*5}deg) rotateY(${x*7}deg) translateY(-3px)`;};
+        const onLeave=()=>{el.style.transform='';};
+        el.addEventListener('pointermove',onTilt);el.addEventListener('pointerleave',onLeave);
+        cleanups.push(()=>{el.removeEventListener('pointermove',onTilt);el.removeEventListener('pointerleave',onLeave);el.style.transform='';});
+      });
+    }
+    afMotionCleanup=()=>{alive=false;cancelAnimationFrame(raf);cleanups.forEach(fn=>fn());};
+  }
+
   function render(){
     const view=current();
     document.documentElement.lang=lang;document.documentElement.dir=lang==='ar'?'rtl':'ltr';
     const pages={home,courses,projects,orientation,event,direction,news:event,faq,legal};
     const content=pages[view]?pages[view]():simple(view);
     app.innerHTML=shell(view,content);
+    initAfMotion();
     document.title=`AFPEED DIGITAL — ${view==='home'?t('Accueil','الرئيسية'):view}`;
     app.querySelectorAll('[data-go]').forEach(el=>el.addEventListener('click',()=>go(el.dataset.go)));
     app.querySelectorAll('[data-scroll]').forEach(el=>el.addEventListener('click',()=>{

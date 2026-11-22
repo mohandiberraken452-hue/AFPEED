@@ -1,19 +1,31 @@
-AFPEED DIGITAL — Mise à jour 22 novembre 2026
+AFPEED DIGITAL - ACCUEIL IMMERSIF 3D
+Version du 22 novembre 2026
 
-Fichier à remplacer : index.html (à la racine du dépôt GitHub AFPEED).
-Cette version conserve les rubriques et les cinq directions de wilaya.
+CONTENU
+- index.html : site public autonome (HTML, CSS, JavaScript, photos integres).
+- .nojekyll : conserver ce fichier a la racine du depot GitHub.
 
-Modifications :
-- Email du coordinateur Bensaidi Abdelkader : abdelkaderbensadi12@gmail.com
-- Deux portraits du relais AFPEED en France, intégrés au HTML (Ibris Mounira et président du conseil consultatif, sans nom non fourni).
-- Événements & articles : formulaire de rédaction supprimé ; lecture seule des articles existants et section événements conservée.
-- Les articles de présentation ne sont pas présentés comme des annonces officielles ; aucun événement officiel daté n'a été fourni.
+NOUVEAUTES
+- Accueil institutionnel bleu nuit, vert et or, avec effets de profondeur.
+- Portrait du president conserve en premier, animation flottante et effet 3D a la souris.
+- Globe 3D anime en Canvas : liaisons Algerie, France, Italie, Espagne et Tunisie.
+- Animation des connexions et globe manipulable a la souris ou au toucher.
+- Cartes des objectifs et du parcours avec animations discretes.
+- Apparitions progressives au defilement.
+- Mode de mouvement reduit respecte, et affichage mobile adapte.
+- Aucune bibliotheque externe, aucun serveur, aucune base de donnees.
+- Rubriques, photos, directions de wilaya, relations internationales, publications,
+  et traductions FR/AR conservees dans le fichier d'origine.
 
-Publication :
-1. Décompresser ce ZIP.
-2. Ouvrir https://github.com/mohandiberraken452-hue/AFPEED
-3. Add file > Upload files ; envoyer index.html au niveau racine (remplacer le fichier existant).
-4. Commit changes.
-5. Attendre la fin du déploiement puis actualiser avec Ctrl+F5.
+INSTALLATION GITHUB PAGES
+1. Ouvrir https://github.com/mohandiberraken452-hue/AFPEED
+2. A la racine du depot, remplacer l'ancien index.html par le nouveau index.html.
+3. Valider via Commit changes.
+4. Attendre le deploiement GitHub Pages.
+5. Ouvrir https://mohandiberraken452-hue.github.io/AFPEED/#/home
+6. Si l'ancienne page s'affiche encore, recharger avec Ctrl + F5.
 
-Site : https://mohandiberraken452-hue.github.io/AFPEED/#/home
+IMPORTANT
+Le site reste une presentation statique. Les fonctions de compte et de base de donnees
+ne peuvent pas fonctionner sur GitHub Pages seul.
+Les portraits et textes sont repris du ZIP AFPEED-main.zip transmis.
