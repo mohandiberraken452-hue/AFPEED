@@ -1,8 +1,1 @@
-AFPEED DIGITAL - Nouvelle version accueil (photos + direction regionale Ouest)
-
-1. Dans GitHub, ouvrez le depot siteofficiel1/AFPEED.
-2. Remplacez le fichier index.html a la racine par le fichier index.html de ce dossier.
-3. Cliquez Commit changes, attendez GitHub Pages, puis rechargez avec Ctrl+F5.
-
-Toutes les photos sont integrees dans index.html.
-Le reste du site et les animations 3D sont conserves.
+Remplacer index.html a la racine du depot AFPEED sur GitHub. Conserver les autres fichiers. Commit changes puis actualiser le site.
