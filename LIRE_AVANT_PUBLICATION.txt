@@ -1,1 +1,1 @@
-Remplacer index.html a la racine du depot AFPEED sur GitHub. Conserver les autres fichiers. Commit changes puis actualiser le site.
+Remplacer index.html à la racine du dépôt GitHub Pages, puis Commit changes. Les 15 photos sont intégrées dans le HTML. Aucun serveur nécessaire.
